@@ -15,13 +15,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::name('front.')->group(function () {
-    Route::view('/', 'front.index');
-    Route::view('/about', 'front.about');
-    Route::view('/service', 'front.service');
-    Route::view('/contact', 'front.contact');
+    Route::view('/', 'front.index')->name('index');
+    Route::view('/about', 'front.about')->name('about');
+    Route::view('/service', 'front.service')->name('service');
+    Route::view('/contact', 'front.contact')->name('contact');
 });
 
-
+Route::name('admin.')->prefix('admin')->group(function () {
+    Route::view('/', 'admin.index')->name('index');
+});
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
