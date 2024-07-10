@@ -8,10 +8,22 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto py-0">
-            <a href="/" class="nav-item nav-link @yield('home-active')">Home</a>
-            <a href="about" class="nav-item nav-link @yield('about-active')">About</a>
-            <a href="service" class="nav-item nav-link @yield('service-active')">Service</a>
-            <a href="contact" class="nav-item nav-link @yield('contact-active')">Contact</a>
+            <a href="/" @class([
+                'nav-item nav-link',
+                'active' => request()->routeIs('front.index'),
+            ])>Home</a>
+            <a href="about" @class([
+                'nav-item nav-link',
+                'active' => request()->routeIs('front.about'),
+            ])>About</a>
+            <a href="service" @class([
+                'nav-item nav-link',
+                'active' => request()->routeIs('front.service'),
+            ])>Service</a>
+            <a href="contact" @class([
+                'nav-item nav-link',
+                'active' => request()->routeIs('front.contact'),
+            ])>Contact</a>
         </div>
     </div>
 </nav>

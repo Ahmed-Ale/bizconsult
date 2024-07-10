@@ -1,7 +1,6 @@
 @extends('front.master')
 
 @section('title', 'Contact')
-@section('contact-active', 'active')
 
 @section('hero')
 <x-hero-section title="Contact Us" subtitle="Contact"></x-hero-section> 

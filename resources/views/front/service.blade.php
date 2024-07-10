@@ -1,7 +1,6 @@
 @extends('front.master')
 
 @section('title', 'Service')
-@section('service-active', 'active')
 
 @section('hero')
     <x-hero-section title="Services" subtitle="Services"></x-hero-section>

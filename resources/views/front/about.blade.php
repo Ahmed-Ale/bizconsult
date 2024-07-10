@@ -1,11 +1,9 @@
 @extends('front.master')
 
 @section('title', 'About')
-@section('about-active', 'active')
-@section('home-active', 'active')
 
 @section('hero')
-<x-hero-section title="About US" subtitle="About"></x-hero-section>
+    <x-hero-section title="About US" subtitle="About"></x-hero-section>
 @endsection
 
 @section('content')
@@ -19,7 +17,9 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="d-inline-block border rounded-pill text-primary px-4 mb-3">About Us</div>
                     <h2 class="mb-4">Award Wining Consultancy Agency For Your Business</h2>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod</p>
+                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet
+                        diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita
+                        duo justo et tempor eirmod</p>
                     <div class="row g-3 mb-4">
                         <div class="col-12 d-flex">
                             <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
@@ -27,7 +27,8 @@
                             </div>
                             <div class="ms-4">
                                 <h6>Business Planning</h6>
-                                <span>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</span>
+                                <span>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit
+                                    sed stet lorem sit clita duo</span>
                             </div>
                         </div>
                         <div class="col-12 d-flex">
@@ -36,7 +37,8 @@
                             </div>
                             <div class="ms-4">
                                 <h6>Financial Analaysis</h6>
-                                <span>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</span>
+                                <span>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit
+                                    sed stet lorem sit clita duo</span>
                             </div>
                         </div>
                     </div>
@@ -47,7 +49,6 @@
     </div>
     <!-- About End -->
 
-
     <!-- Features Start -->
     <div class="container-xxl py-6">
         <div class="container">
@@ -55,7 +56,9 @@
                 <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="d-inline-block border rounded-pill text-primary px-4 mb-3">Features</div>
                     <h2 class="mb-4">Why People Choose Us? We Are Trusted & Award Wining Agency</h2>
-                    <p>Clita nonumy sanctus nonumy et clita tempor, et sea amet ut et sadipscing rebum amet takimata amet, sed accusam eos eos dolores dolore et. Et ea ea dolor rebum invidunt clita eos. Sea accusam stet stet ipsum, sit ipsum et ipsum kasd</p>
+                    <p>Clita nonumy sanctus nonumy et clita tempor, et sea amet ut et sadipscing rebum amet takimata amet,
+                        sed accusam eos eos dolores dolore et. Et ea ea dolor rebum invidunt clita eos. Sea accusam stet
+                        stet ipsum, sit ipsum et ipsum kasd</p>
                     <p>Et ea ea dolor rebum invidunt clita eos. Sea accusam stet stet ipsum, sit ipsum et ipsum kasd</p>
                     <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href="">Read More</a>
                 </div>
@@ -122,7 +125,6 @@
     </div>
     <!-- Features End -->
 
-
     <!-- Team Start -->
     <div class="container-xxl py-6">
         <div class="container">
@@ -135,11 +137,15 @@
                     <div class="team-item">
                         <h5>Full Name</h5>
                         <p class="mb-4">Designation</p>
-                        <img class="img-fluid rounded-circle w-100 mb-4" src="{{ asset('front-assets') }}/img/team-1.jpg" alt="">
+                        <img class="img-fluid rounded-circle w-100 mb-4" src="{{ asset('front-assets') }}/img/team-1.jpg"
+                            alt="">
                         <div class="d-flex justify-content-center">
-                            <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-square text-primary bg-white m-1" href=""><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square text-primary bg-white m-1" href=""><i
+                                    class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square text-primary bg-white m-1" href=""><i
+                                    class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
@@ -147,11 +153,15 @@
                     <div class="team-item">
                         <h5>Full Name</h5>
                         <p class="mb-4">Designation</p>
-                        <img class="img-fluid rounded-circle w-100 mb-4" src="{{ asset('front-assets') }}/img/team-2.jpg" alt="">
+                        <img class="img-fluid rounded-circle w-100 mb-4" src="{{ asset('front-assets') }}/img/team-2.jpg"
+                            alt="">
                         <div class="d-flex justify-content-center">
-                            <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-square text-primary bg-white m-1" href=""><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square text-primary bg-white m-1" href=""><i
+                                    class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square text-primary bg-white m-1" href=""><i
+                                    class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
@@ -159,11 +169,15 @@
                     <div class="team-item">
                         <h5>Full Name</h5>
                         <p class="mb-4">Designation</p>
-                        <img class="img-fluid rounded-circle w-100 mb-4" src="{{ asset('front-assets') }}/img/team-3.jpg" alt="">
+                        <img class="img-fluid rounded-circle w-100 mb-4" src="{{ asset('front-assets') }}/img/team-3.jpg"
+                            alt="">
                         <div class="d-flex justify-content-center">
-                            <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-square text-primary bg-white m-1" href=""><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square text-primary bg-white m-1" href=""><i
+                                    class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square text-primary bg-white m-1" href=""><i
+                                    class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
@@ -171,11 +185,15 @@
                     <div class="team-item">
                         <h5>Full Name</h5>
                         <p class="mb-4">Designation</p>
-                        <img class="img-fluid rounded-circle w-100 mb-4" src="{{ asset('front-assets') }}/img/team-4.jpg" alt="">
+                        <img class="img-fluid rounded-circle w-100 mb-4" src="{{ asset('front-assets') }}/img/team-4.jpg"
+                            alt="">
                         <div class="d-flex justify-content-center">
-                            <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square text-primary bg-white m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-square text-primary bg-white m-1" href=""><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square text-primary bg-white m-1" href=""><i
+                                    class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square text-primary bg-white m-1" href=""><i
+                                    class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>

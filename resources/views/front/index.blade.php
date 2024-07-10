@@ -1,7 +1,6 @@
 @extends('front.master')
 
 @section('title', 'Home')
-@section('home-active', 'active')
 
 @section('hero')
     <div class="container-xxl bg-primary hero-header">
