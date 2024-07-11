@@ -46,4 +46,10 @@ return [
     'message_created' => 'Message Created Successfully',
     'show_message' => 'Show Message',
     'message_deleted' => 'Message Deleted Successfully',
+
+    // subscribers
+    'subscriber' => 'Subscriber',
+    'subscribers' => 'Subscribers',
+    'subscriber_created' => 'Subscriber Created Successfully',
+    'subscriber_deleted' => 'Subscriber Deleted Successfully',
 ];

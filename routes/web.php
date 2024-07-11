@@ -5,6 +5,7 @@ use App\Http\Controllers\MessageController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\SubscriberController;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
 /*
@@ -35,6 +36,8 @@ Route::name('admin.')->prefix(LaravelLocalization::setLocale() . '/admin')->midd
         Route::resource('features', FeatureController::class);
 
         Route::resource('messages', MessageController::class)->except(['create', 'edit', 'update']);
+
+        Route::resource('subscribers', SubscriberController::class)->except(['create', 'show', 'edit', 'update']);
     });
 
     require __DIR__ . '/auth.php';
