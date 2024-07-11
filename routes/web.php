@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\FeatureController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ServiceController;
@@ -29,6 +30,8 @@ Route::name('admin.')->prefix(LaravelLocalization::setLocale() . '/admin')->midd
         Route::view('/', 'admin.index')->name('index');
 
         Route::resource('services', ServiceController::class);
+
+        Route::resource('features', FeatureController::class);
     });
 
     require __DIR__ . '/auth.php';
