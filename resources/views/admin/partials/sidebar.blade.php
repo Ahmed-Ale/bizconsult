@@ -30,8 +30,10 @@
         <ul class="navbar-nav flex-fill w-100 mb-2">
             <x-sidebar-tab href="{{ route('admin.services.index') }}" icon="fe-codesandbox"
                 name="{{ __('keywords.services') }}"></x-sidebar-tab>
-            <x-sidebar-tab href="{{ route('admin.services.index') }}" icon="fe-home"
-                name="{{ __('keywords.word') }}"></x-sidebar-tab>
+            <x-sidebar-tab href="{{ route('admin.features.index') }}" icon="fe-bookmark"
+                name="{{ __('keywords.features') }}"></x-sidebar-tab>
+            <x-sidebar-tab href="{{ route('admin.messages.index') }}" icon="fe-message-square"
+                name="{{ __('keywords.messages') }}"></x-sidebar-tab>
         </ul>
     </nav>
 </aside>

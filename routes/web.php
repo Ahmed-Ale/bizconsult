@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\FeatureController;
+use App\Http\Controllers\MessageController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ServiceController;
@@ -32,6 +33,8 @@ Route::name('admin.')->prefix(LaravelLocalization::setLocale() . '/admin')->midd
         Route::resource('services', ServiceController::class);
 
         Route::resource('features', FeatureController::class);
+
+        Route::resource('messages', MessageController::class)->except(['create', 'edit', 'update']);
     });
 
     require __DIR__ . '/auth.php';

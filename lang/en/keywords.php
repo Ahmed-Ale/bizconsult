@@ -17,6 +17,11 @@ return [
     'update' => 'Update',
     'are_you_sure' => 'Are you sure you want to delete this record',
 
+    'name' => 'Name',
+    'email' => 'Email',
+    'subject' => 'Subject',
+    'name' => 'Name',
+
     // Services
     'services' => 'Services',
     'add_new_service' => 'Add New Service',
@@ -34,4 +39,11 @@ return [
     'edit_feature' => 'Edit Feature',
     'feature_updated' => 'Feature Updated Successfully',
     'feature_deleted' => 'Feature Deleted Successfully',
+
+    // Messages
+    'message' => 'Message',
+    'messages' => 'Messages',
+    'message_created' => 'Message Created Successfully',
+    'show_message' => 'Show Message',
+    'message_deleted' => 'Message Deleted Successfully',
 ];
