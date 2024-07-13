@@ -39,6 +39,9 @@
 
             <x-sidebar-tab href="{{ route('admin.subscribers.index') }}" icon="fe-users"
                 name="{{ __('keywords.subscribers') }}"></x-sidebar-tab>
+
+            <x-sidebar-tab href="{{ route('admin.testimonials.index') }}" icon="fe-message-circle"
+                name="{{ __('keywords.testimonials') }}"></x-sidebar-tab>
         </ul>
     </nav>
 </aside>

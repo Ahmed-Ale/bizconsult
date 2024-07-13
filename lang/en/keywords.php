@@ -20,7 +20,8 @@ return [
     'name' => 'Name',
     'email' => 'Email',
     'subject' => 'Subject',
-    'name' => 'Name',
+    'position' => 'Position',
+    'image' => 'Image',
 
     // Services
     'services' => 'Services',
@@ -52,4 +53,13 @@ return [
     'subscribers' => 'Subscribers',
     'subscriber_created' => 'Subscriber Created Successfully',
     'subscriber_deleted' => 'Subscriber Deleted Successfully',
+
+    // Testimonials
+    'testimonials' => 'Testimonials',
+    'add_new_testimonial' => 'Add New Testimonial',
+    'testimonial_created' => 'Testimonial Created Successfully',
+    'show_testimonial' => 'Show Testimonial',
+    'edit_testimonial' => 'Edit Testimonial',
+    'testimonial_updated' => 'Testimonial Updated Successfully',
+    'testimonial_deleted' => 'Testimonial Deleted Successfully',
 ];
