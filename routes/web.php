@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CompanyController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FeatureController;
 use App\Http\Controllers\MessageController;
@@ -40,7 +41,9 @@ Route::name('admin.')->prefix(LaravelLocalization::setLocale() . '/admin')->midd
 
         Route::resource('subscribers', SubscriberController::class)->except(['create', 'show', 'edit', 'update']);
 
-        Route::resource('testmonials', TestimonialController::class);
+        Route::resource('testimonials', TestimonialController::class);
+
+        Route::resource('companies', CompanyController::class);
     });
 
     require __DIR__ . '/auth.php';

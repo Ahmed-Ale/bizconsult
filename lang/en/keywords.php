@@ -62,4 +62,14 @@ return [
     'edit_testimonial' => 'Edit Testimonial',
     'testimonial_updated' => 'Testimonial Updated Successfully',
     'testimonial_deleted' => 'Testimonial Deleted Successfully',
+
+    // Companies
+    'companies' => 'Companies',
+    'add_new_company' => 'Add New Company',
+    'company_created' => 'Company Created Successfully',
+    'show_company' => 'Show Company',
+    'edit_company' => 'Edit Company',
+    'company_updated' => 'Company Updated Successfully',
+    'company_deleted' => 'Company Deleted Successfully',
+
 ];
