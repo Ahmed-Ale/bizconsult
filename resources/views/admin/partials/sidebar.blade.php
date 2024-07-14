@@ -45,6 +45,9 @@
 
             <x-sidebar-tab href="{{ route('admin.companies.index') }}" icon="fe-globe"
                 name="{{ __('keywords.companies') }}"></x-sidebar-tab>
+
+            <x-sidebar-tab href="{{ route('admin.members.index') }}" icon="fe-user-check"
+                name="{{ __('keywords.members') }}"></x-sidebar-tab>
         </ul>
     </nav>
 </aside>

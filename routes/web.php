@@ -3,6 +3,7 @@
 use App\Http\Controllers\CompanyController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FeatureController;
+use App\Http\Controllers\MemberController;
 use App\Http\Controllers\MessageController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ServiceController;
@@ -44,6 +45,8 @@ Route::name('admin.')->prefix(LaravelLocalization::setLocale() . '/admin')->midd
         Route::resource('testimonials', TestimonialController::class);
 
         Route::resource('companies', CompanyController::class);
+
+        Route::resource('members', MemberController::class);
     });
 
     require __DIR__ . '/auth.php';

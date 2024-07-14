@@ -72,4 +72,15 @@ return [
     'company_updated' => 'Company Updated Successfully',
     'company_deleted' => 'Company Deleted Successfully',
 
+    // Members
+    'members' => 'Members',
+    'add_new_member' => 'Add New Member',
+    'member_created' => 'Member Created Successfully',
+    'show_member' => 'Show Member',
+    'edit_member' => 'Edit Member',
+    'member_updated' => 'Member Updated Successfully',
+    'member_deleted' => 'Member Deleted Successfully',
+    'facebook' => 'Facebook',
+    'twitter' => 'Twitter',
+    'linkedin' => 'Linkedin',
 ];
