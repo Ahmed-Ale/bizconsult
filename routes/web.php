@@ -7,6 +7,7 @@ use App\Http\Controllers\MemberController;
 use App\Http\Controllers\MessageController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\SettingController;
 use App\Http\Controllers\SubscriberController;
 use App\Http\Controllers\TestimonialController;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
@@ -47,6 +48,8 @@ Route::name('admin.')->prefix(LaravelLocalization::setLocale() . '/admin')->midd
         Route::resource('companies', CompanyController::class);
 
         Route::resource('members', MemberController::class);
+
+        Route::resource('settings', SettingController::class);
     });
 
     require __DIR__ . '/auth.php';

@@ -83,4 +83,13 @@ return [
     'facebook' => 'Facebook',
     'twitter' => 'Twitter',
     'linkedin' => 'Linkedin',
+
+    // Settings
+    'settings' => 'Settings',
+    'address' => 'Address',
+    'phone' => 'Phone',
+    'edit_setting' => 'Edit Setting',
+    'setting_updated' => 'Setting Updated Successfully',
+    'youtube' => 'Youtube',
+    'instagram' => 'Instagram',
 ];
