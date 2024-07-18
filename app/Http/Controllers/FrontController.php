@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Company;
 use App\Models\Testimonial;
 use Illuminate\Http\Request;
 
@@ -10,7 +11,8 @@ class FrontController extends Controller
 
     public function index()
     {
-        return view('front.index');
+        $companies = Company::all();
+        return view('front.index', compact('companies'));
     }
 
     public function about()
