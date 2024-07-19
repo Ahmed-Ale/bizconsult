@@ -6,7 +6,7 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-12">
-                <h2 class="h5 page-title">{{ __('keywords.add_new_service') }}</h2>
+                <h2 class="h5 page-title">{{ __('keywords.edit_service') }}</h2>
                 <!-- simple table -->
                 <div class="card shadow">
                     <div class="card-body">

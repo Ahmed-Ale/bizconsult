@@ -22,11 +22,11 @@ class StoreSubscriberRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'email' => 'required|string',
+            'email' => 'required|string|unique:subscribers,email',
         ];
     }
 
-    
+
     public function attributes()
     {
         return [
